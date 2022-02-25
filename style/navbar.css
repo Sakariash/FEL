@@ -139,18 +139,18 @@ a {
 }
 
 .hamburger.active .barFirst:nth-child(1) {
-  transform: translateY(4px) translateX(-3px) rotate(-45deg);
+  transform: translateY(5px) translateX(-1px) rotate(-45deg);
   width: 14px;
 
   /* opacity: 0; */
 }
 
 .hamburger.active .barSecond:nth-child(2) {
-  transform: translateY(0px) rotate(45deg);
-  width: 30px;
+  transform: translateY(1px) translateX(1px) rotate(45deg);
+  width: 29px;
 }
 
 .hamburger.active .barThird:nth-child(3) {
-  transform: translateY(-6px) translateX(3px) rotate(-45deg);
+  transform: translateY(-4px) translateX(3px) rotate(-45deg);
   width: 14px;
 }
