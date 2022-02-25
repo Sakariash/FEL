@@ -1,0 +1,12 @@
+.hero {
+  width: 343px;
+  height: 213px;
+  margin: 136px 17px 0px 16px;
+  padding: 0;
+}
+.heroText {
+  color: white;
+  font-weight: bold;
+  font-size: 61px;
+  line-height: 71px;
+}
