@@ -15,10 +15,10 @@
   white-space: nowrap;
   overflow: hidden;
 }
-
 .slide-left {
   width: 100%;
   overflow: hidden;
+  margin-bottom: 176px;
 }
 .message {
   animation: slide-left 10s linear infinite;
