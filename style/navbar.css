@@ -1,0 +1,117 @@
+nav {
+  margin: 0;
+  position: relative;
+  z-index: 100;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*The logo in the navbar*/
+.logo {
+  font-size: 1rem;
+  color: black;
+  margin: 1rem;
+  margin-left: 40%;
+  text-transform: uppercase;
+  z-index: 1;
+}
+/* The navbar on the top off the page */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: black;
+}
+
+/* the line in the hamburger */
+.barFirst {
+  display: block;
+  width: 20px;
+  height: 3px;
+  margin: 7px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+.barSecond {
+  display: block;
+  width: 40px;
+  height: 3px;
+  margin: 7px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+.barThird {
+  display: block;
+  width: 20px;
+  height: 3px;
+  margin: 7px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+/* the slide-box with all the nav links */
+.navMenu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: fixed;
+  right: 150%;
+  top: 0;
+  flex-direction: column;
+  background-color: rgb(230, 210, 210);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 0.5s;
+  margin: 0;
+}
+
+/*The style for the links in the navbar */
+.navItem {
+  text-transform: uppercase;
+  padding: 22px;
+  margin-top: 50px;
+  font-size: 1rem;
+}
+
+/* The menu linkitems */
+.navLink {
+  font-size: 2rem;
+  color: black;
+}
+
+.navLink:hover {
+}
+/*Make the menu come out*/
+.navMenu.active {
+  right: 0;
+}
+/* Style for the lines in the hamburger menu*/
+.hamburger {
+  /* display: block; */
+  cursor: pointer;
+  position: absolute;
+}
+
+.hamburger.active .barFirst:nth-child(1) {
+  opacity: 0;
+}
+
+.hamburger.active .barSecond:nth-child(2) {
+  transform: translateY(0px) rotate(50deg);
+  width: 30px;
+}
+
+.hamburger.active .barThird:nth-child(3) {
+  transform: translateY(-10px) rotate(-50deg);
+  width: 30px;
+}
