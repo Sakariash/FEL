@@ -14,46 +14,48 @@ a {
 
 /*The logo in the navbar*/
 .logo {
-  font-size: 1rem;
+  /* font-size: 1rem; */
   color: black;
-  margin: 1rem;
-  margin-left: 40%;
-  text-transform: uppercase;
+  /* margin: 1rem; */
+  /* margin-left: 40%; */
+  margin-left: 141px;
+  margin-top: 52px;
+  /* text-transform: uppercase; */
   z-index: 1;
 }
 /* The navbar on the top off the page */
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
+  /* align-items: center; */
+  /* padding: 1rem; */
   background-color: black;
 }
 
 /* the line in the hamburger */
 .barFirst {
   display: block;
-  width: 20px;
+  width: 15px;
   height: 3px;
-  margin: 7px auto;
+  margin: 0px 0px 7px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: white;
 }
 .barSecond {
   display: block;
-  width: 40px;
+  width: 30px;
   height: 3px;
-  margin: 7px;
+  /* margin: 7px; */
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: white;
 }
 .barThird {
   display: block;
-  width: 20px;
+  width: 15px;
   height: 3px;
-  margin: 7px;
+  margin: 7px auto 0px 0px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: white;
@@ -132,18 +134,23 @@ a {
   /* display: block; */
   cursor: pointer;
   position: absolute;
+  margin-top: 52px;
+  margin-left: 16px;
 }
 
 .hamburger.active .barFirst:nth-child(1) {
-  opacity: 0;
+  transform: translateY(4px) translateX(-3px) rotate(-45deg);
+  width: 14px;
+
+  /* opacity: 0; */
 }
 
 .hamburger.active .barSecond:nth-child(2) {
-  transform: translateY(0px) rotate(50deg);
+  transform: translateY(0px) rotate(45deg);
   width: 30px;
 }
 
 .hamburger.active .barThird:nth-child(3) {
-  transform: translateY(-10px) rotate(-50deg);
-  width: 30px;
+  transform: translateY(-6px) translateX(3px) rotate(-45deg);
+  width: 14px;
 }
