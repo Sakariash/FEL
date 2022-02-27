@@ -1,7 +1,7 @@
 nav {
   margin: 0;
-  position: relative;
-  z-index: 100;
+  /* position: relative; */
+  /* z-index: 100; */
 }
 
 li {
@@ -79,6 +79,7 @@ a {
   width: 100%;
   transition: 0.5s;
   margin: 0;
+  z-index: 10;
 }
 
 .activeMenu {
@@ -143,6 +144,7 @@ a {
   position: absolute;
   margin-top: 52px;
   margin-left: 16px;
+  z-index: 10;
 }
 
 .hamburger.active .barFirst:nth-child(1) {

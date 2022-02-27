@@ -10,6 +10,8 @@
   font-size: 61px;
   line-height: 71px;
 }
+.heroText h1 {
+}
 .rolling-text {
   display: flex;
   white-space: nowrap;
