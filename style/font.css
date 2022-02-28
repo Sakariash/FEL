@@ -3,13 +3,6 @@
   cursor: pointer;
 } */
 
-.wrapper {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
-
 .cursor {
   width: 40px;
   height: 40px;
