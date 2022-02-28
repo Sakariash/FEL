@@ -75,7 +75,7 @@ a {
   right: 150%;
   top: 0;
   flex-direction: column;
-  background-color: #e5e5e5;
+  background: var(--gradient-nav);
   width: 100%;
   transition: 0.5s;
   margin: 0;

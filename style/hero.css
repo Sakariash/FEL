@@ -13,9 +13,12 @@
 .heroText h1 {
 }
 .rolling-text {
+  background: var(--gradient-nav);
   display: flex;
   white-space: nowrap;
   overflow: hidden;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .slide-left {
   width: 100%;
@@ -28,7 +31,12 @@
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
-  color: white;
+  /* color: white; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: var(--gradient-nav);
 }
 
 @keyframes slide-left {
