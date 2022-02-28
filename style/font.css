@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "Space Grotesk Bold";
+  src: url("SpaceGrotesk-Bold.woff2") format("woff2"),
+    url("/fonts/SpaceGrotesk-Bold-export/SpaceGrotesk-Bold.woff2")
+      format("woff"),
+    url("/fonts/SpaceGrotesk-Bold-export/SpaceGrotesk-Bold.woff")
+      format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Space Grotesk Regular";
+  src: url("SpaceGrotesk-Regular.woff2") format("woff2"),
+    url("SpaceGrotesk-Regular.woff") format("woff"),
+    url("SpaceGrotesk-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
 /* body {
   background: #252935;
   cursor: pointer;

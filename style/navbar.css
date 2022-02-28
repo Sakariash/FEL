@@ -63,7 +63,7 @@ a {
   display: block;
   width: 15px;
   height: 3px;
-  margin-top: 7px;
+  margin: 7px auto 0px 0px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: white;
