@@ -1,2 +1,25 @@
 @media only screen and (min-width: 1024px) {
+  .hamburger {
+    margin: 64px 1283px 4145px 111px;
+  }
+
+  .logo img {
+    width: 155.43px;
+    height: 91.99px;
+    left: 642px;
+    top: 64px;
+  }
+  .hero {
+    height: 100vh;
+  }
+  .heroText {
+    width: 1127px;
+    height: 282px;
+    margin: 134px 152px 490px 111px;
+    font-weight: normal;
+    font-size: 115px;
+    line-height: 117.6%;
+    letter-spacing: -0.015em;
+    font-family: var(--font-regular);
+  }
 }
