@@ -9,17 +9,19 @@
     left: 642px;
     top: 64px;
   }
-  .hero {
-    height: 100vh;
-  }
+
   .heroText {
     width: 1127px;
     height: 282px;
     margin: 134px 152px 490px 111px;
     font-weight: normal;
     font-size: 115px;
-    line-height: 117.6%;
+    line-height: 141px;
     letter-spacing: -0.015em;
     font-family: var(--font-regular);
+  }
+
+  .message {
+    font-size: 72px;
   }
 }
