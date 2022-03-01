@@ -1,7 +1,50 @@
-nav {
-  margin: 0;
+.navbar {
+  background-color: red;
+  /* width: 90%; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5% 0 5%;
+
   /* position: relative; */
-  /* z-index: 100; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* padding: 1rem; */
+  /* background-color: transparent; */
+}
+.logo {
+  margin-top: 3em;
+  /* transform: translate(-46.5px); */
+  /* margin-left: 50%; */
+  /* font-size: 1rem; */
+  /* margin: 1rem; */
+  /* margin-left: 40%; */
+  /* margin-left: 141px; */
+  /* margin-top: 52px; */
+  /* text-transform: uppercase; */
+  /* z-index: 1; */
+}
+.burger-menu {
+  /* display: block; */
+  cursor: pointer;
+  /* position: absolute; */
+  margin-top: 3em;
+  /* margin-left: 16px; */
+  z-index: 10;
+}
+
+.burger-menu.active .bar-first:nth-child(1) {
+  transform: translateY(5px) translateX(-1px) rotate(-45deg);
+  width: 14px;
+}
+
+.burger-menu.active .bar-second:nth-child(2) {
+  transform: translateY(1px) translateX(1px) rotate(45deg);
+  width: 29px;
+}
+
+.burger-menu.active .bar-third:nth-child(3) {
+  transform: translateY(-4px) translateX(3px) rotate(-45deg);
+  width: 14px;
 }
 
 li {
@@ -12,36 +55,8 @@ a {
   text-decoration: none;
 }
 
-/*The logo in the navbar*/
-.logo {
-  transform: translate(-46.5px);
-  margin-left: 50%;
-  /* font-size: 1rem; */
-  color: black;
-  /* margin: 1rem; */
-  /* margin-left: 40%; */
-  /* margin-left: 141px; */
-  margin-top: 52px;
-  /* text-transform: uppercase; */
-  /* z-index: 1; */
-}
-.logoActive {
-  transform: translate(-46.5px);
-  margin-left: 50%;
-  margin-top: 52px;
-}
-/* The navbar on the top off the page */
-.navbar {
-  display: flex;
-  width: 100%;
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  /* padding: 1rem; */
-  background-color: transparent;
-}
-
 /* the line in the hamburger */
-.barFirst {
+.bar-first {
   display: block;
   width: 15px;
   height: 3px;
@@ -50,7 +65,7 @@ a {
   transition: all 0.3s ease-in-out;
   background-color: var(--color-third);
 }
-.barSecond {
+.bar-second {
   display: block;
   width: 30px;
   height: 3px;
@@ -59,7 +74,7 @@ a {
   transition: all 0.3s ease-in-out;
   background-color: var(--color-third);
 }
-.barThird {
+.bar-third {
   display: block;
   width: 15px;
   height: 3px;
@@ -69,95 +84,70 @@ a {
   background-color: var(--color-third);
 }
 /* the slide-box with all the nav links */
-.navMenu {
-  display: flex;
-  position: absolute;
-  right: 150%;
+.nav-menu {
+  height: 100vh;
+  /* display: flex;
+  flex-direction: column;*/
+  position: fixed;
+  right: -150%;
   top: 0;
-  flex-direction: column;
   background: var(--gradient-nav);
   width: 100%;
   transition: 0.5s;
-  margin: 0;
+  /* margin: 0; */
   z-index: 10;
+  /* overflow-x: hidden; */
 }
 
-.activeMenu {
+.nav-menu.active {
+  height: 100vh;
+  position: fixed;
+  right: 0;
+}
+.link-menu {
   display: flex;
   flex-direction: column;
-  width: 243px;
-  height: 316px;
-  margin: 157px 116px 123px 16px;
+  margin: 7em 0 0 1em;
+  /* width: 310px;
+  height: 340px;
+  margin: 157px 116px 123px 16px; */
 }
 
-/*The style for the links in the navbar */
-
-/* The menu linkitems */
-.navLink {
+.nav-link {
   font-size: 72px;
   line-height: 84px;
-  margin-bottom: 32px;
+  margin-bottom: 0.5em;
   color: white;
 }
 
-.social {
+.media-icon-wrapper {
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
-  width: 246px;
-  height: 71px;
-  margin: 0 0 0 16px;
+  width: 15em;
+  margin: 3em 0 0 1em;
 }
 
-.socialMedia {
-  margin: 8px;
-  height: 56px;
-}
-.socialMediaMiddle {
-  margin: 8px 27px 8px 27px;
+.media-icon {
+  margin: 0.5em;
+  /* height: 56px; */
 }
 
-.language {
+.language-wrapper {
   display: flex;
   flex-direction: row;
-  width: 255px;
-  height: 84px;
-  margin: 45px 103px 16px 17px;
+  width: 16em;
+  margin: 2em 0 0 1em;
   justify-content: space-between;
 }
 
-.languageItem {
+.language-item {
   color: white;
-  font-size: 72px;
+  font-size: 4em;
   line-height: 84px;
 }
 
-.navLink:hover {
+.nav-link:hover {
+  text-decoration: underline;
 }
 /*Make the menu come out*/
-.navMenu.active {
-  right: 0;
-}
-/* Style for the lines in the hamburger menu*/
-.hamburger {
-  /* display: block; */
-  cursor: pointer;
-  position: absolute;
-  margin-top: 52px;
-  margin-left: 16px;
-  z-index: 10;
-}
-
-.hamburger.active .barFirst:nth-child(1) {
-  transform: translateY(5px) translateX(-1px) rotate(-45deg);
-  width: 14px;
-}
-
-.hamburger.active .barSecond:nth-child(2) {
-  transform: translateY(1px) translateX(1px) rotate(45deg);
-  width: 29px;
-}
-
-.hamburger.active .barThird:nth-child(3) {
-  transform: translateY(-4px) translateX(3px) rotate(-45deg);
-  width: 14px;
-}
