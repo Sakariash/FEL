@@ -1,12 +1,12 @@
 .contact-fel {
-  margin: 64px 16px 0px 16px;
+  margin-top: 10%;
   position: relative;
   z-index: -1000;
 }
 
 .contact-image {
   position: relative;
-  height: 400px;
+  width: 100%;
 }
 
 .contact-info {

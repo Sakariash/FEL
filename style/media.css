@@ -32,4 +32,48 @@
     width: 500px;
     left: -100%;
   }
+  /* sections */
+  .what-is {
+    left: 55%;
+    top: 11%;
+    width: 7rem;
+    height: 4rem;
+    font-size: 2rem;
+  }
+  .wrong {
+    left: 55%;
+    top: 19%;
+    width: 35rem;
+    font-size: 3rem;
+    justify-content: left;
+  }
+  .info-text {
+    left: 57%;
+    top: 230px;
+    width: 28rem;
+    height: 13rem;
+    position: absolute;
+  }
+  /* .info-button {
+    top: 70%;
+    left: 65%;
+  } */
+  /* images */
+  .fel-image {
+    width: 900px;
+    height: 750px;
+  }
+
+  .lab-image {
+    width: 900px;
+    height: 750px;
+    right: 0%;
+  }
+  .story-image {
+    width: 900px;
+    height: 750px;
+  }
+  .contact-image {
+    width: 100%;
+  }
 }
