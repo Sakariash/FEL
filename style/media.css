@@ -22,6 +22,14 @@
   }
 
   .message {
-    font-size: 72px;
+    font-size: 120px;
+  }
+  .navMenu.active {
+    left: 0;
+  }
+
+  .navMenu {
+    width: 500px;
+    left: -100%;
   }
 }
