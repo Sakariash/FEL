@@ -37,7 +37,7 @@ a {
   /* justify-content: space-between; */
   /* align-items: center; */
   /* padding: 1rem; */
-  background-color: black;
+  background-color: transparent;
 }
 
 /* the line in the hamburger */
@@ -48,7 +48,7 @@ a {
   margin: 0px 0px 7px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: white;
+  background-color: var(--color-third);
 }
 .barSecond {
   display: block;
@@ -57,7 +57,7 @@ a {
   /* margin: 7px; */
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: white;
+  background-color: var(--color-third);
 }
 .barThird {
   display: block;
@@ -66,7 +66,7 @@ a {
   margin: 7px auto 0px 0px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: white;
+  background-color: var(--color-third);
 }
 /* the slide-box with all the nav links */
 .navMenu {
