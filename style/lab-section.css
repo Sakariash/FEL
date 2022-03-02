@@ -1,5 +1,5 @@
 .lab-section {
-  margin: 94px 5% 0px 5%;
+  margin: 10% 5% 0 5%;
   position: relative;
   z-index: -1000;
 }
@@ -42,21 +42,22 @@
   height: 72px;
   padding: 8px;
   font-family: var(--font-bold);
+  background-color: var(--color-secondary);
   font-weight: bold;
   font-size: 48px;
   line-height: 56px;
   top: 360px;
 }
-.info-text {
+.info-text-lab {
   display: flex;
   margin-top: 0px;
   padding: 56px 32px 122px 32px;
   background-color: white;
   font-size: 18px;
   line-height: 21px;
-  font-family: var(--font-bold);
+  font-family: var(--font-regular);
 }
-.info-text p {
+.info-text-lab p {
   margin: 0;
 }
 .info-button {
@@ -66,7 +67,7 @@
   font-size: 24px;
   line-height: 28px;
   border: solid 2px;
-  border-color: black;
+  border-color: var(--color-secondary);
   background-color: white;
   bottom: 56px;
   left: 91.5px;

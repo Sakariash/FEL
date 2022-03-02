@@ -2,4 +2,28 @@
   .story-section {
     margin: 0;
   }
+  .story-image {
+    width: 900px;
+  }
+  .this-is {
+    left: 50%;
+    top: 191px;
+    width: 13rem;
+    height: 4rem;
+    font-size: 3rem;
+  }
+  .our-story-headline {
+    left: 50%;
+    top: 256px;
+    width: 19rem;
+    height: 5rem;
+    font-size: 4rem;
+    justify-content: left;
+    font-size: 4rem;
+  }
+
+  .info-button-story {
+    left: 68%;
+    top: 598px;
+  }
 }

@@ -16,21 +16,31 @@
   }
 }
 @media only screen and (min-width: 1024px) {
+  .contact-fel {
+    margin-top: 0%;
+  }
   .contact-info {
     top: 10rem;
     margin-left: 10%;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: var(--font-regular);
+    width: 25rem;
+    height: 3rem;
   }
   .contact-name {
-    top: 12rem;
+    top: 13rem;
     margin-left: 10%;
+    font-size: 4rem;
+    width: 16rem;
   }
   .contact-us {
     top: 70%;
     transform: none;
     left: 0%;
     margin-left: 10%;
-    width: 12rem;
+    width: 17rem;
     height: 3rem;
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }

@@ -21,28 +21,27 @@
   z-index: 10;
   display: block;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   background-color: white;
   position: absolute;
-  width: 82px;
+  width: 6rem;
   height: 28px;
   padding: 0px 8px 0px 8px;
   font-family: var(--font-bold);
   font-weight: bold;
   font-size: 24px;
-  line-height: 28px;
+  /* line-height: 28px; */
   top: 332px;
 }
 .wrong {
-  display: block;
+  /* display: block; */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #7b7c84;
   color: white;
   position: absolute;
-  height: 72px;
+  height: 86px;
   padding: 8px;
   font-family: var(--font-bold);
   font-size: 2rem;
@@ -52,12 +51,13 @@
 }
 .info-text {
   display: flex;
-  margin-top: 0px;
-  padding: 56px 10%px 122px 32px;
+  /* margin-top: 15%; */
+  padding: 20% 5% 25% 5%;
   background-color: white;
   font-size: 18px;
   line-height: 21px;
   font-family: var(--font-regular);
+  font-weight: lighter;
 }
 .info-text p {
   margin: 0;
