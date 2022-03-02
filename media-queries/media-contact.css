@@ -42,5 +42,6 @@
     width: 17rem;
     height: 3rem;
     font-size: 2rem;
+    cursor: pointer;
   }
 }

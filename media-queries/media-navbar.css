@@ -13,6 +13,7 @@
   }
   .nav-menu.active {
     right: 0;
+    position: absolute;
   }
 
   .nav-menu {
