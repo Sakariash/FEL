@@ -5,14 +5,14 @@
   }
   .what-is {
     left: 45%;
-    top: 191px;
+    top: 29%;
     width: 11rem;
     height: 4rem;
     font-size: 3rem;
   }
   .wrong {
     left: 45%;
-    top: 256px;
+    top: 38%;
     width: 47rem;
     height: 5rem;
     font-size: 4rem;
@@ -21,7 +21,7 @@
   }
   .info-text {
     left: 55%;
-    top: 123px;
+    top: 50%;
     width: 33rem;
     padding: 2rem;
     height: 20rem;
