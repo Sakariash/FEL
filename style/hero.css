@@ -1,37 +1,39 @@
 .hero {
-  width: 343px;
-  height: 213px;
-  margin: 136px 17px 136px 16px;
-  padding: 0;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
-.heroText {
+.hero-title {
   color: white;
-  font-weight: bold;
-  font-size: 61px;
-  line-height: 71px;
+  font-family: var(--font-bold);
+  font-size: 2em;
+  line-height: 2em;
+  padding: 5em 35% 0 5%;
 }
-.heroText h1 {
-}
+
 .rolling-text {
-  background: var(--gradient-nav);
+  position: fixed;
+  /* background: var(--gradient-nav); */
   display: flex;
   white-space: nowrap;
   overflow: hidden;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-family: var(--font-bold);
+  padding-bottom: 2em;
 }
-.slide-left {
+/* .slide-left {
   width: 100%;
   overflow: hidden;
   margin-bottom: 176px;
-}
+} */
 .message {
-  animation: slide-left 10s linear infinite;
-
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  /* color: white; */
+  animation: slide-left 40s linear infinite;
+  font-family: var(--font-bold);
+  text-transform: uppercase;
+  font-size: 6em;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -45,7 +47,7 @@
     transform: translateX(100%);
   }
   to {
-    -webkit-transform: translateX(-300%);
-    transform: translateX(-300%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 }
