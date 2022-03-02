@@ -4,69 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style/style.css" />
     <link rel="stylesheet" href="/style/navbar.css" />
     <link rel="stylesheet" href="/style/global.css" />
-    <link rel="stylesheet" href="/style/hero.css" />
-    <link rel="stylesheet" href="/style/info.css" />
-    <link rel="stylesheet" href="/style/lab01.css" />
-    <link rel="stylesheet" href="style/our-story.css" />
-    <link rel="stylesheet" href="/style/contact.css" />
+    <link rel="stylesheet" href="/style/her-sectiono.css" />
+    <link rel="stylesheet" href="/style/info-section.css" />
+    <link rel="stylesheet" href="/style/lab-section.css" />
+    <link rel="stylesheet" href="style/story-section.css" />
+    <link rel="stylesheet" href="/style/contact-section.css" />
     <link rel="stylesheet" href="/style/font.css" />
     <link rel="stylesheet" href="/style/footer.css" />
     <link rel="stylesheet" href="/style/media.css" />
+    <link rel="stylesheet" href="style/cursor.css">
     <title>F.E.L.</title>
   </head>
   <body>
     <!-- <canvas id="canvas"></canvas> -->
-
     <div class="cursor cursoreffect"></div>
-
     <header>
       <nav class="navbar">
         <!-- kanske lägga in en logga som bild? -->
         <div class="logo"><img src="/images/logoFEL.svg" /></div>
-        <div class="navMenu">
-          <div class="logoActive"><img src="/images/logoFEL.svg" /></div>
-          <div class="activeMenu">
-            <a href="#" class="navLink">about</a>
-            <a href="#" class="navLink">LAB 01</a>
-            <a href="#" class="navLink">contact</a>
+        <div class="nav-menu">
+          <div class="link-menu">
+            <a href="#" class="nav-link">vår story</a>
+            <a href="#" class="nav-link">LAB 01</a>
+            <a href="#" class="nav-link">kontakt</a>
           </div>
-          <div class="social">
-            <li class="socialMedia">
+          <div class="media-icon-wrapper">
+            <li class="media-icon">
               <img src="/images/facebook.svg" alt="icon for facebook" />
             </li>
 
-            <li class="socialMediaMiddle">
+            <li class="media-icon">
               <img src="/images/instagram.svg" alt="icon for instagram" />
             </li>
 
-            <li class="socialMedia">
+            <li class="media-icon">
               <img src="/images/tiktok.svg" alt="icon for tiktok" />
             </li>
           </div>
-          <div class="language">
-            <li class="languageItem">sv</li>
+          <div class="language-wrapper">
+            <li class="language-item">sv</li>
 
-            <li class="languageItem">en</li>
+            <li class="language-item">en</li>
           </div>
         </div>
 
-        <div class="hamburger">
-          <span class="barFirst"></span>
-          <span class="barSecond"></span>
-          <span class="barThird"></span>
+        <div class="burger-menu">
+          <span class="bar-first"></span>
+          <span class="bar-second"></span>
+          <span class="bar-third"></span>
         </div>
       </nav>
     </header>
-
     <main>
-      <div class="hero">
-        <h1 class="heroText">Experiences beyond expectation.</h1>
-      </div>
-      <div class="rolling-text">
-        <div class="slide-left">
+      <section class="hero">
+        <div class="hero-title">
+          <h1>Experiences beyond expectation.</h1>
+        </div>
+        <div class="rolling-text">
           <p class="message">
             You’re a Creative. You’re a Suit. You’re business punk. You’re a
             visionary. You’re a mentor. You’re a perpetual optimist. You’re
@@ -75,10 +71,10 @@
             learning.
           </p>
         </div>
-      </div>
-      <section class="FEL">
+      </section>
+      <section class="info-section">
         <div class="info-content">
-          <div class="fel-image">
+          <div class="info-image">
             <img
               class="fel-item"
               srcset="
@@ -104,14 +100,14 @@
               Först ut är LAB 01.
             </p>
           </div>
-          <!-- <button class="info-button">Läs mer här</button> -->
+          <button class="info-button">Läs mer här</button>
         </div>
       </section>
-      <section class="LAB01">
-        <div class="story-content">
-          <div class="story-image">
+      <section class="lab-section">
+        <div class="lab-content">
+          <div class="lab-image">
             <img
-              class="story-item"
+              class="lab-item"
               srcset="
                 /images/image-2022-small.png 500w,
                 /images/lab-2022-large.png
@@ -135,10 +131,10 @@
           <button class="info-button">Läs mer här</button>
         </div>
       </section>
-      <section class="our-story">
+      <section class="story-section">
         <div class="story-content">
-          <div class="lab-content">
-            <div class="lab-image">
+          <div class="story-content">
+      <div class="story-image">
               <img
                 class="lab-item"
                 srcset="
@@ -151,7 +147,7 @@
                 alt="Two people wearing wr glasses and headphones."
               />
             </div>
-          <div class="this-is"><p>Detta är</p></div>
+      <div class="this-is"><p>Detta är</p></div>
           <div class="our-story-headline"><p>vår story</p></div>
           <div class="info-text">
             <p>
@@ -169,7 +165,7 @@
       </section>
       <section class="contact-fel">
         <div>
-          <div class="contact-image">
+      <div class="contact-image">
             <img
               class="contact-item"
               srcset="
@@ -182,39 +178,59 @@
               alt="Gothenburg canal woth houses and cranes in the background."
             />
           </div>
-         
-          <div class="contact-info"><p>Provkör din verksamhets</p></div>
+
+      <div class="contact-info"><p>Provkör din verksamhets</p></div>
           <div class="contact-name"><p>framtid</p></div>
 
           <button class="contact-us">Kontakta oss</button>
         </div>
       </section>
     </main>
+
+
+
     <footer>
       <div class="footer-menu">
-        <a href="#" class="footer-link">about</a>
+        <a href="#" class="footer-link">vår story</a>
         <a href="#" class="footer-link">LAB 01</a>
-        <a href="#" class="footer-link">contact</a>
+        <a href="#" class="footer-link">kontakt</a>
       </div>
-      <div class="footer-contact">
+      <div class="footer-wrapper">
         <div class="footer-logo"><img src="/images/logoFEL.svg" /></div>
-        <div class="footer-social">
-          <li class="footer-socialmedia">
+        <div class="footer-media">
+
+          <li class="footer-icon">
             <img src="/images/facebook.svg" alt="icon for facebook" />
           </li>
 
-          <li class="footer-socialmedia">
+          <li class="footer-icon">
             <img src="/images/instagram.svg" alt="icon for instagram" />
           </li>
 
-          <li class="footer-socialmedia">
+          <li class="footer-icon">
             <img src="/images/tiktok.svg" alt="icon for tiktok" />
           </li>
-        </div>
+      
         <div class="footer-copyright">© Future Experience Lab 2022</div>
       </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </footer>
-    <script src="index.js"></script>
-    <script src="curser.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/curser.js"></script>
   </body>
 </html>
