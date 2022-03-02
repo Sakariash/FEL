@@ -97,9 +97,10 @@
   }
   .footer-menu {
     flex-direction: row;
-    width: 30em;
-    height: 10em;
+    width: 20em;
+    height: 10rem;
     margin: 0;
+    padding-top: 3rem;
   }
 
   .footer-wrapper {
@@ -108,15 +109,17 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    height: 10em;
+    height: 10rem;
     margin: 0;
   }
   .footer-media {
     flex-wrap: wrap;
+    margin: 0 0 0 0;
   }
   .footer-copyright {
     white-space: nowrap;
     font-size: 0.8em;
+    margin-top: 1rem;
   }
   .footer-icon {
     margin-left: 1em;
