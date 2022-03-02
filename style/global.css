@@ -1,9 +1,6 @@
 :root {
   --font-bold: Space Grotesk Bold;
   --font-regular: Space Grotesk Regular;
-
-  --color-primary: black;
-
   --bg-color: #000000;
   --color-secondary: #500cf5;
   --color-third: #82e299;
@@ -18,21 +15,15 @@
 }
 
 body {
-  background-color: var(--color-primary);
-  position: relative;
+  width: 100vw;
+  background-color: var(--bg-color);
   margin: 0px;
   padding: 0px;
-  /* height: auto; */
-  font-family: var(--font-bold);
+  font-family: var(--font-regular);
 }
-canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
-
 img {
   display: block;
+}
+a:hover {
+  text-decoration: underline;
 }
