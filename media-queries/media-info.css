@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1024px) {
+  .info-section {
+    margin: 0;
+  }
+  .what-is {
+    left: 55%;
+    top: 79px;
+    width: 7rem;
+    height: 4rem;
+    font-size: 2rem;
+  }
+  .wrong {
+    left: 55%;
+    top: 19%;
+    width: 35rem;
+    font-size: 3rem;
+    justify-content: left;
+  }
+  .info-text {
+    left: 57%;
+    top: 230px;
+    /* width: 28rem; */
+    padding: 2rem;
+    /* height: 13rem; */
+    position: absolute;
+  }
+  .info-image {
+    width: 900px;
+    height: 750px;
+    margin: 0;
+  }
+
+  .story-image {
+    width: 900px;
+    height: 750px;
+    margin: 0;
+  }
+}

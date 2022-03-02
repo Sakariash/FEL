@@ -1,0 +1,36 @@
+@media only screen and (min-width: 700px) {
+  .contact-info {
+    top: 4rem;
+  }
+  .contact-name {
+    top: 6rem;
+  }
+  .contact-us {
+    top: 70%;
+    transform: none;
+    left: 0%;
+    margin-left: 5%;
+  }
+  .contact-image {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .contact-info {
+    top: 10rem;
+    margin-left: 10%;
+  }
+  .contact-name {
+    top: 12rem;
+    margin-left: 10%;
+  }
+  .contact-us {
+    top: 70%;
+    transform: none;
+    left: 0%;
+    margin-left: 10%;
+    width: 12rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+}

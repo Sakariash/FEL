@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1024px) {
+  .navbar {
+    width: 100%;
+    padding: 0 10% 0 10%;
+  }
+  .burger-menu {
+    margin-top: 4em;
+    /* margin: 64px 1283px 4145px 111px; */
+  }
+
+  .logo img {
+    width: 10em;
+  }
+  .nav-menu.active {
+    right: 0;
+  }
+
+  .nav-menu {
+    width: 45%;
+    /* right: -100%; */
+  }
+}
