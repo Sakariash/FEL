@@ -1,12 +1,12 @@
 footer {
   padding-bottom: 48px;
-  background-color: #7b7c84;
+  background-color: var(--color-secondary);
 }
 
 .footer-menu {
   display: flex;
   flex-direction: column;
-  width: 138px;
+  width: 10em;
   height: 174px;
   justify-content: space-between;
   text-decoration: none;
@@ -21,7 +21,7 @@ footer {
   color: white;
 }
 
-.footer-contact {
+.footer-wrapper {
   width: 259px;
   height: 271px;
   margin: 127px 0px 0px 18px;
@@ -35,7 +35,7 @@ footer {
   height: 89px;
 }
 
-.footer-social {
+.footer-media {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -44,7 +44,7 @@ footer {
   margin: 56px 0px 56px 8px;
 }
 
-.footer-socialmedia img {
+.footer-icon img {
   width: 40px;
   height: 40px;
 }
