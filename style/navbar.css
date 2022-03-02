@@ -88,8 +88,8 @@ a {
   height: 100vh;
   /* display: flex;
   flex-direction: column;*/
-  position: fixed;
-  right: -100%;
+  position: absolute;
+  right: -150%;
   top: 0;
   background: var(--gradient-nav);
   width: 100%;
