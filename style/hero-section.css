@@ -1,0 +1,51 @@
+.hero {
+  height: 100vh;
+  top: 0;
+}
+.hero-title {
+  color: white;
+  font-family: var(--font-bold);
+  font-size: 2em;
+  line-height: 2em;
+  padding: 5em 35% 0 5%;
+}
+
+.rolling-text {
+  /* position: fixed; */
+  /* background: var(--gradient-nav); */
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-family: var(--font-bold);
+  padding-bottom: 2em;
+}
+/* .slide-left {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 176px;
+} */
+.message {
+  animation: slide-left 40s linear infinite;
+  font-family: var(--font-bold);
+  text-transform: uppercase;
+  font-size: 6em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: var(--gradient-nav);
+}
+
+@keyframes slide-left {
+  from {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
