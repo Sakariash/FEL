@@ -1,11 +1,17 @@
 .lab-section {
-  margin: 94px 16px 0px 16px;
+  margin: 94px 5% 0px 5%;
   position: relative;
   z-index: -1000;
 }
 .lab-content {
   /* position: relative;
     z-index: -1000; */
+}
+.lab-image {
+}
+.lab-image img {
+  min-height: 400px;
+  width: 100%;
 }
 .lab-year {
   z-index: 10;

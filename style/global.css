@@ -13,7 +13,9 @@
   --slidshow-one: linear-gradient(270deg, #82e09b 14.35%, #635bd4 90.08%);
   --slideshow-two: linear-gradient(270deg, #82e09b 14.35%, #fe8d87 90.08%);
 }
-
+* {
+  box-sizing: border-box;
+}
 body {
   width: 100vw;
   background-color: var(--bg-color);

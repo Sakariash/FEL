@@ -1,11 +1,14 @@
 .story-section {
-  margin: 94px 16px 0px 16px;
+  margin: 94px 5% 0px 5%;
   position: relative;
   z-index: -1000;
 }
 .story-content {
   /* position: relative;
       z-index: -1000; */
+}
+.story-image img {
+  width: 100%;
 }
 .this-is {
   z-index: 10;

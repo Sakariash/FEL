@@ -8,6 +8,9 @@
   position: relative;
   width: 100%;
 }
+.contact-image img {
+  width: 100%;
+}
 
 .contact-info {
   z-index: 10;
