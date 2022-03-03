@@ -16,8 +16,7 @@
   display: flex;
   white-space: nowrap;
   overflow: hidden;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
   text-transform: uppercase;
   font-family: var(--font-regular);
   padding-bottom: 2em;
@@ -28,15 +27,11 @@
   margin-bottom: 176px;
 } */
 .message {
-  animation: slide-left 40s linear infinite;
+  animation: slide-left 40s infinite;
   font-family: var(--font-bold);
   text-transform: uppercase;
   font-size: 6em;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-  background-image: var(--gradient-nav);
+  color: var(--color-third);
 }
 
 @keyframes slide-left {

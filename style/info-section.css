@@ -2,15 +2,9 @@
   margin: 0px 5% 0px 5%;
   position: relative;
 }
-/* .info-content {
-  /* position: relative;
-  z-index: -1000; */
-
-/* .info-image { */
-/* object-fit: contain; 
-  /* min-width: 343px; 
-  /* height: 400px; 
-} */
+.info-content {
+  position: relative;
+}
 
 .info-image img {
   width: 100%;

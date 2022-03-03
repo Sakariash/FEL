@@ -6,6 +6,7 @@
   .lab-image {
     width: 900px;
     margin-left: 37%;
+    overflow-x: hidden;
   }
 
   .info-text-lab {
@@ -32,7 +33,7 @@
     width: 14rem;
   }
   .info-button {
-    left: 36%;
+    left: 32%;
     top: 425px;
     cursor: pointer;
   }
