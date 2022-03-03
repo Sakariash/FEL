@@ -1,4 +1,4 @@
-.cursor {
+/* .cursor {
   z-index: -11;
   width: 0px;
   height: 60px;
@@ -29,11 +29,7 @@
   position: absolute;
   -webkit-animation: cursorPulse 1s;
   content: "";
-  width: 50px; /*Bredd på bollen /
-  height: 50px; / højd på bollen /
-  border: 1px solid #82e299;
-  background-color: #82e299;
-  / box-shadow: 0 0 20px #500cf5, 0 0 40px #500cf5, 0 0 80px #500cf5; */
+  width: 50px;
   border-radius: 50%;
   position: absolute;
   -webkit-animation: cursorPulse 1s;
@@ -48,4 +44,4 @@
     -webkit-transform: scale(3);
     opacity: 0;
   }
-}
+} */
