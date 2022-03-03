@@ -2,11 +2,13 @@
   .lab-section {
     margin: 0;
     right: 0;
+    padding: 0;
   }
   .lab-image {
     width: 900px;
-    margin-left: 37%;
-    overflow-x: hidden;
+    margin-left: auto;
+    /* margin-left: 36.7%; */
+    /* overflow-x: hidden; */
   }
 
   .info-text-lab {

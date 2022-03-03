@@ -1,6 +1,7 @@
 @media only screen and (min-width: 1024px) {
   .story-section {
     margin: 0;
+    padding: 0;
   }
   .story-image {
     width: 900px;
