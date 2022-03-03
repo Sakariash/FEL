@@ -15,10 +15,12 @@
   content: "";
   width: 10px;
   height: 10px;
-  border: 10px solid 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
-  box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  border: 10px solid 0 0 7px #82e299, 0 0 10px #82e299, 0 0 21px #82e299,
+    0 0 42px #82e299, 0 0 82px #82e299, 0 0 92px #82e299, 0 0 102px #82e299,
+    0 0 151px #82e299;
+  box-shadow: 0 0 7px #82e299, 0 0 10px #82e299, 0 0 21px #82e299,
+    0 0 42px #82e299, 0 0 82px #82e299, 0 0 92px #82e299, 0 0 102px #82e299,
+    0 0 151px #82e299;
   border-radius: 100%;
   background-color: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
     0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
@@ -27,12 +29,11 @@
   position: absolute;
   -webkit-animation: cursorPulse 1s;
   content: "";
-  width: 10px;
-  height: 10px;
-  border: 1px solid white;
-  background-color: white;
-  box-shadow: 0 0 20px var(--color-secondary), 0 0 40px var(--color-secondary),
-    0 0 80px var(--color-secondary);
+  width: 50px; /*Bredd på bollen /
+  height: 50px; / højd på bollen /
+  border: 1px solid #82e299;
+  background-color: #82e299;
+  / box-shadow: 0 0 20px #500cf5, 0 0 40px #500cf5, 0 0 80px #500cf5; */
   border-radius: 50%;
   position: absolute;
   -webkit-animation: cursorPulse 1s;
