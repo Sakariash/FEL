@@ -24,7 +24,6 @@ footer {
 
 .footer-wrapper {
   width: 259px;
-  /* height: 271px; */
   margin: 127px 0px 0px 18px;
   display: flex;
   justify-content: space-between;
@@ -54,6 +53,4 @@ footer {
 .footer-copyright {
   color: white;
   white-space: nowrap;
-}
-.icon-wrapper {
 }

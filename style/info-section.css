@@ -13,7 +13,6 @@
   z-index: 10;
   display: block;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   background-color: white;
   position: absolute;
@@ -22,11 +21,9 @@
   padding: 0px 8px 0px 8px;
   font-family: var(--font-regular);
   font-size: 24px;
-  /* line-height: 28px; */
   top: 332px;
 }
 .wrong {
-  /* display: block; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,20 +50,3 @@
 .info-text p {
   margin: 0;
 }
-
-/* kolla över knappar */
-/* .info-button {
-  position: absolute;
-  font-family: var(--font-bold);
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-  border: solid 2px;
-  border-color: black;
-  background-color: white;
-  bottom: 56px;
-  left: 91.5px;
-  width: 160px;
-  height: 42px;
-  cursor: pointer;
-} */

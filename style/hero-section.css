@@ -11,8 +11,6 @@
 }
 
 .rolling-text {
-  /* position: fixed; */
-  /* background: var(--gradient-nav); */
   display: flex;
   white-space: nowrap;
   overflow: hidden;
@@ -21,11 +19,7 @@
   font-family: var(--font-regular);
   padding-bottom: 2em;
 }
-/* .slide-left {
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 176px;
-} */
+
 .message {
   animation: slide-left 40s infinite;
   font-family: var(--font-bold);

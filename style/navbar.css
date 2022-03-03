@@ -13,22 +13,11 @@
 }
 .logo {
   margin-top: 3em;
-  /* transform: translate(-46.5px); */
-  /* margin-left: 50%; */
-  /* font-size: 1rem; */
-  /* margin: 1rem; */
-  /* margin-left: 40%; */
-  /* margin-left: 141px; */
-  /* margin-top: 52px; */
-  /* text-transform: uppercase; */
-  /* z-index: 1; */
 }
 .burger-menu {
-  /* display: block; */
   cursor: pointer;
-  /* position: absolute; */
   margin-top: 3em;
-  /* margin-left: 16px; */
+
   z-index: 100;
 }
 
@@ -55,7 +44,6 @@ a {
   text-decoration: none;
 }
 
-/* the line in the hamburger */
 .bar-first {
   display: block;
   width: 15px;
@@ -69,7 +57,6 @@ a {
   display: block;
   width: 30px;
   height: 3px;
-  /* margin: 7px; */
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: var(--color-third);
@@ -83,34 +70,26 @@ a {
   transition: all 0.3s ease-in-out;
   background-color: var(--color-third);
 }
-/* the slide-box with all the nav links */
 .nav-menu {
   height: 100vh;
-  /* display: flex;
-  flex-direction: column;*/
   position: fixed;
   right: -100%;
   top: 0;
   background: var(--gradient-nav);
   width: 100%;
   transition: 0.5s;
-  /* margin: 0; */
   z-index: 4;
   /* overflow-x: hidden; */
 }
 
 .nav-menu.active {
   height: 100vh;
-  /* position: fixed; */
   right: 0;
 }
 .link-menu {
   display: flex;
   flex-direction: column;
   margin: 7em 0 0 1em;
-  /* width: 310px;
-  height: 340px;
-  margin: 157px 116px 123px 16px; */
 }
 
 .nav-link {
@@ -130,7 +109,6 @@ a {
 
 .media-icon {
   margin: 0.5em;
-  /* height: 56px; */
 }
 
 .language-wrapper {
@@ -149,4 +127,3 @@ a {
 .nav-link:hover {
   text-decoration: underline;
 }
-/*Make the menu come out*/

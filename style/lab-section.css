@@ -2,12 +2,7 @@
   margin: 10% 5% 0 5%;
   position: relative;
 }
-/* .lab-content { */
-/* position: relative;
-    z-index: -1000; */
-/* } */
-/* .lab-image {
-} */
+
 .lab-image img {
   min-height: 400px;
   width: 100%;
@@ -51,7 +46,6 @@
 .info-text-lab {
   display: flex;
   margin-top: 0px;
-  /* padding: 56px 32px 122px 32px; */
   padding: 20% 5% 40% 5%;
   background-color: white;
   font-size: 18px;
