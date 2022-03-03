@@ -1,20 +1,20 @@
 .lab-section {
   margin: 10% 5% 0 5%;
   position: relative;
-  z-index: -1000;
+  z-index: -1;
 }
-.lab-content {
-  /* position: relative;
+/* .lab-content { */
+/* position: relative;
     z-index: -1000; */
-}
-.lab-image {
-}
+/* } */
+/* .lab-image {
+} */
 .lab-image img {
   min-height: 400px;
   width: 100%;
 }
 .lab-year {
-  z-index: 10;
+  z-index: 1;
   display: block;
   display: flex;
   justify-content: center;

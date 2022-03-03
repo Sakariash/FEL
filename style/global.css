@@ -22,6 +22,8 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: var(--font-regular);
+  z-index: -10000;
+  display: content;
 }
 img {
   display: block;

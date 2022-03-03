@@ -1,5 +1,5 @@
-.cursor {
-  z-index: -1111;
+/* .cursor {
+  z-index: -11;
   width: 0px;
   height: 60px;
   border: 1px solid white;
@@ -24,7 +24,7 @@
     0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
   /* color: #fff; */
 
-  position: absolute;
+/* position: absolute;
   -webkit-animation: cursorPulse 1s;
   content: "";
   width: 30px;
@@ -46,4 +46,4 @@
     -webkit-transform: scale(3);
     opacity: 0;
   }
-}
+} */
