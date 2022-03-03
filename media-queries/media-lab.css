@@ -10,17 +10,15 @@
 
   .info-text-lab {
     left: 20%;
-    top: 223px;
+    top: 31%;
     width: 33rem;
-    padding: 2rem;
+    padding: 3rem 2.5rem 2rem 2.5rem;
     height: 20rem;
     position: absolute;
-    line-height: 1.5rem;
-    font-weight: lighter;
   }
   .lab-year {
     left: 15%;
-    top: 100px;
+    top: 16%;
     font-size: 3rem;
     width: 8rem;
     height: 3rem;
@@ -34,19 +32,8 @@
     width: 14rem;
   }
   .info-button {
-    left: 33%;
+    left: 32%;
     top: 425px;
     cursor: pointer;
-    color: red;
-    border-style: solid red;
-    box-shadow: solid red;
-    border: solid red;
-    z-index: 1;
-  }
-  .info-button:hover {
-    border-style: dashed red;
-    box-shadow: dashed red;
-    border: dashed red;
-    z-index: 1;
   }
 }

@@ -39,9 +39,9 @@
     transform: none;
     left: 0%;
     margin-left: 10%;
-    width: 17rem;
-    height: 3rem;
-    font-size: 2rem;
+    width: 20rem;
+    height: 4rem;
+    font-size: 1.5rem;
     cursor: pointer;
   }
 }

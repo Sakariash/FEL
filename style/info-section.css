@@ -1,7 +1,6 @@
 .info-section {
   margin: 0px 5% 0px 5%;
   position: relative;
-  z-index: -12;
 }
 /* .info-content {
   /* position: relative;
@@ -27,8 +26,7 @@
   width: 6rem;
   height: 28px;
   padding: 0px 8px 0px 8px;
-  font-family: var(--font-bold);
-  font-weight: bold;
+  font-family: var(--font-regular);
   font-size: 24px;
   /* line-height: 28px; */
   top: 332px;
@@ -42,19 +40,19 @@
   position: absolute;
   height: 86px;
   padding: 8px;
-  font-family: var(--font-bold);
+  font-family: var(--font-regular);
+  font-weight: lighter;
   font-size: 2rem;
-  line-height: 50px;
+  line-height: 3rem;
   top: 360px;
   background-color: var(--color-secondary);
 }
 .info-text {
   display: flex;
-  /* margin-top: 15%; */
-  padding: 20% 5% 25% 5%;
+  padding: 20% 5% 20% 5%;
   background-color: white;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.5rem;
   font-family: var(--font-second);
   font-weight: lighter;
 }

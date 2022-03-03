@@ -1,9 +1,9 @@
 @media only screen and (min-width: 1024px) {
   .hero-title {
-    color: white;
     font-size: 3.5em;
-    line-height: 2em;
     padding: 3em 0 0 10%;
+    line-height: 6rem;
+    letter-spacing: -0.015rem;
   }
   .rolling-text {
     /* position: fixed; */

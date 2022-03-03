@@ -6,24 +6,34 @@
     width: 900px;
   }
   .this-is {
-    left: 50%;
-    top: 191px;
+    left: 51%;
+    top: 22.5%;
     width: 13rem;
     height: 4rem;
     font-size: 3rem;
   }
   .our-story-headline {
-    left: 50%;
-    top: 256px;
+    left: 51%;
+    top: 32%;
     width: 19rem;
     height: 5rem;
     font-size: 4rem;
     justify-content: left;
     font-size: 4rem;
+    padding-left: 1%;
   }
 
   .info-button-story {
-    left: 68%;
-    top: 598px;
+    left: 35%;
+    top: 74%;
+  }
+  .story-text {
+    left: 55%;
+    top: 41.5%;
+    width: 33rem;
+    padding: 2rem;
+    height: 20rem;
+    line-height: 1.5rem;
+    position: absolute;
   }
 }
